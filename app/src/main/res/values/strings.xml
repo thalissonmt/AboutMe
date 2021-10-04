@@ -2,4 +2,17 @@
     <string name="app_name">About Me</string>
     <string name="name">Thalisson Tavares</string>
     <string name="yellow_star">Yellow star</string>
+    <string name="bio">Hi, my name is Thalisson.
+        \n\nI\'m an undergraduate student of Computer Engineering at CIN/UFPE.
+        \n\nI\'m a developer with experience in back-end, front-end, and embedded systems, including Android, Flutter, Firebase, Node.js and Arduino.
+        \nIn addition, I am a musician and practicer of sports in my spare time, especially soccer.
+        \n\nMy desire is to make the world better. So, for this, we need technology to simplify people\'s lives and to improve the life quality.
+        \n\nFeel free to contact me on any of the following social media:
+        \nLinkedIn: thalissonmt
+        \nGitHub: thalissonmt
+        \nInstagram: thalissonmt
+        \n\nI\'ll be glad to help you!
+    </string>
+    <string name="what_is_your_nickname">What is your Nickname?</string>
+    <string name="done">Done</string>
 </resources>
