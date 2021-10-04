@@ -20,10 +20,13 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun addNickname(view: View) {
-        binding.nicknameText.text = binding.nicknameEdit.text
-        view.visibility = View.GONE
-        binding.nicknameEdit.visibility = View.GONE
-        binding.nicknameText.visibility = View.VISIBLE
+        binding.apply {
+            nicknameText.text = nicknameEdit.text
+            invalidateAll()
+            doneButton.visibility = View.GONE
+            nicknameEdit.visibility = View.GONE
+            nicknameText.visibility = View.VISIBLE
+        }
 
         // Hide the keyboard.
         val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
